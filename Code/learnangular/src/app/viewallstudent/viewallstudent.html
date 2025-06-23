@@ -1,0 +1,19 @@
+<div class="container">
+    <table class="table table-striped">
+        <tr *ngFor="let s of students |async">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Fee</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let s of students |async">
+            <td>{{s.id}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.email}}</td>
+            <td>{{s.fee}}</td>
+            <td>Edit Delete</td>
+        </tr>
+    </table>
+
+</div>
