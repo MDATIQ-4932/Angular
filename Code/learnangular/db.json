@@ -5,7 +5,14 @@
             "name": "atik",
             "email": "atik@gmail.com",
             "fee": 15000
+        },
+         {
+            "id": 2,
+            "name": "shimul",
+            "email": "shimul@gmail.com",
+            "fee": 25000
         }
+
     ],
     "locations": [
         {
