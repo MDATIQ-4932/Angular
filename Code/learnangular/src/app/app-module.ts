@@ -6,12 +6,14 @@ import { App } from './app';
 import { Home } from './home/home';
 import { Viewallstudent } from './viewallstudent/viewallstudent';
 import { provideHttpClient, withFetch } from '@angular/common/http';
+import { AddStudent } from './add-student/add-student';
 
 @NgModule({
   declarations: [
     App,
     Home,
-    Viewallstudent
+    Viewallstudent,
+    AddStudent
   ],
   imports: [
     BrowserModule,
